@@ -1,13 +1,24 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # tdcthemes
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-TDC Themes is a package designed to make consistent styling possible across projects for The Data Collective. While the package is publicly available on github, it is purely to provide others with context on how they might approach this for their organisation.
+TDC Themes is a package designed to make consistent styling possible
+across projects for The Data Collective. While the package is publicly
+available on github, it is purely to provide others with context on how
+they might approach this for their organisation.
 
-Much of this has been riffed off [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) and [bbplot](https://github.com/bbc/bbplot).
+Much of this has been riffed off
+[hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) and
+[bbplot](https://github.com/bbc/bbplot).
 
-The package does make use of the [ggtext](https://github.com/wilkelab/ggtext) to enhance text styling options.
+The package does make use of the
+[ggtext](https://github.com/wilkelab/ggtext) to enhance text styling
+options.
 
 ## Installation
 
@@ -20,7 +31,9 @@ remotes::install_github("thedatacollective/tdcthemes")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
+library(ggplot2)
 library(tdcthemes)
+
 ## basic example code
 ggplot(iris, aes(Sepal.Length, Petal.Length, colour = as.factor(Species))) +
 geom_point() +
@@ -33,3 +46,4 @@ style_tdc() +
 NULL
 ```
 
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
