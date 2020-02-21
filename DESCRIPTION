@@ -1,0 +1,18 @@
+Package: tdcthemes
+Title: Document And Chart Themes For The Data Collective
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Daniel",
+           family = "Wilson",
+           role = c("aut", "cre"),
+           email = "dan@thedatacollective.com.au")
+Description: This package provides re-usable document and chart themes in the style guide of The Data Collective.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggtext (>= 0.1.0),
+    ggplot2
+Remotes: 
+    wilkelab/ggtext
+RoxygenNote: 6.1.1
