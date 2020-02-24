@@ -113,7 +113,7 @@ scale_color_tdc <- scale_colour_tdc
 #'
 #' @export
 scale_fill_tdc <- function(..., palette="tdc",
-                           discrete = TRUE, alpha=1, reverse = TRUE) {
+                           discrete = TRUE, alpha=1, reverse = FALSE) {
   if (discrete) {
     if (palette == "tdc_named") {
       scale_fill_manual(values = tdc_palettes[[palette]])

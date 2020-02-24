@@ -5,7 +5,7 @@
 \title{#' Setup fill palette for ggplot2}
 \usage{
 scale_fill_tdc(..., palette = "tdc", discrete = TRUE, alpha = 1,
-  reverse = TRUE)
+  reverse = FALSE)
 }
 \arguments{
 \item{...}{additional arguments to pass to scale_color_gradientn}
