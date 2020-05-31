@@ -55,6 +55,6 @@ ggplot(iris, aes(Sepal.Length, Petal.Length, colour = as.factor(Species))) +
        caption = "Fisher's **Iris** data set") +
   facet_wrap(~ Species) +
   scale_colour_tdc() +
-  style_tdc() +
+  style_tdc(legend = T) +
   NULL
 ```

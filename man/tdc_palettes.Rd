@@ -4,7 +4,9 @@
 \name{tdc_palettes}
 \alias{tdc_palettes}
 \title{Australian Colour Palettes}
-\format{An object of class \code{list} of length 4.}
+\format{
+An object of class \code{list} of length 4.
+}
 \usage{
 tdc_palettes
 }

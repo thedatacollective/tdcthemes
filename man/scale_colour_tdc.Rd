@@ -5,11 +5,21 @@
 \alias{scale_color_tdc}
 \title{Setup colour palette for ggplot2}
 \usage{
-scale_colour_tdc(..., palette = "tdc", discrete = TRUE, alpha = 1,
-  reverse = FALSE)
+scale_colour_tdc(
+  ...,
+  palette = "tdc",
+  discrete = TRUE,
+  alpha = 1,
+  reverse = FALSE
+)
 
-scale_color_tdc(..., palette = "tdc", discrete = TRUE, alpha = 1,
-  reverse = FALSE)
+scale_color_tdc(
+  ...,
+  palette = "tdc",
+  discrete = TRUE,
+  alpha = 1,
+  reverse = FALSE
+)
 }
 \arguments{
 \item{...}{additional arguments to pass to scale_color_gradientn}

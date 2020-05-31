@@ -16,4 +16,4 @@ Imports:
     scales
 Remotes: 
     wilkelab/ggtext
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0

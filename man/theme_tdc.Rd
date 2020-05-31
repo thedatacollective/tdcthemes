@@ -4,11 +4,18 @@
 \alias{theme_tdc}
 \title{Theme TDC}
 \usage{
-theme_tdc(base_family = "Roboto Condensed", base_size = 12,
-  plot_title_family = base_family, plot_title_size = 28,
-  subtitle_family = "Open Sans Condensed", subtitle_size = 12,
-  title_family = base_family, title_size = 14,
-  caption_family = base_family, caption_size = 10)
+theme_tdc(
+  base_family = "Roboto Condensed",
+  base_size = 12,
+  plot_title_family = base_family,
+  plot_title_size = 28,
+  subtitle_family = "Open Sans Condensed",
+  subtitle_size = 12,
+  title_family = base_family,
+  title_size = 14,
+  caption_family = base_family,
+  caption_size = 10
+)
 }
 \arguments{
 \item{base_family, base_size}{base font family and size}

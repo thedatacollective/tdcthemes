@@ -7,21 +7,61 @@
 \alias{scale_y_comma}
 \title{X & Y scales with opinionated pre-sets for percent & comma label formats}
 \usage{
-scale_x_percent(position = "bottom", sec.axis = waiver(), labels,
-  accuracy = 1, scale = 100, prefix = "", suffix = "\%",
-  big.mark = ",", decimal.mark = ".", trim = TRUE, ...)
+scale_x_percent(
+  position = "bottom",
+  sec.axis = waiver(),
+  labels,
+  accuracy = 1,
+  scale = 100,
+  prefix = "",
+  suffix = "\%",
+  big.mark = ",",
+  decimal.mark = ".",
+  trim = TRUE,
+  ...
+)
 
-scale_y_percent(position = "left", sec.axis = waiver(), labels,
-  accuracy = 1, scale = 100, prefix = "", suffix = "\%",
-  big.mark = ",", decimal.mark = ".", trim = TRUE, ...)
+scale_y_percent(
+  position = "left",
+  sec.axis = waiver(),
+  labels,
+  accuracy = 1,
+  scale = 100,
+  prefix = "",
+  suffix = "\%",
+  big.mark = ",",
+  decimal.mark = ".",
+  trim = TRUE,
+  ...
+)
 
-scale_x_comma(position = "bottom", sec.axis = waiver(), labels,
-  accuracy = 1, scale = 1, prefix = "", suffix = "",
-  big.mark = ",", decimal.mark = ".", trim = TRUE, ...)
+scale_x_comma(
+  position = "bottom",
+  sec.axis = waiver(),
+  labels,
+  accuracy = 1,
+  scale = 1,
+  prefix = "",
+  suffix = "",
+  big.mark = ",",
+  decimal.mark = ".",
+  trim = TRUE,
+  ...
+)
 
-scale_y_comma(position = "left", sec.axis = waiver(), labels,
-  accuracy = 1, scale = 1, prefix = "", suffix = "",
-  big.mark = ",", decimal.mark = ".", trim = TRUE, ...)
+scale_y_comma(
+  position = "left",
+  sec.axis = waiver(),
+  labels,
+  accuracy = 1,
+  scale = 1,
+  prefix = "",
+  suffix = "",
+  big.mark = ",",
+  decimal.mark = ".",
+  trim = TRUE,
+  ...
+)
 }
 \arguments{
 \item{position}{The position of the axis. "left" or "right" for vertical
@@ -79,8 +119,8 @@ object itself. Built-in transformations include "asn", "atanh",
 "logit", "probability", "probit", "reciprocal", "reverse" and "sqrt".}
 }
 \description{
-The \code{_comma} ones set comma format for axis text and \code{expand=c(0,0)} (you need to set limits).
+The \verb{_comma} ones set comma format for axis text and \code{expand=c(0,0)} (you need to set limits).
 }
 \details{
-The \code{_percent} ones set precent format for axis text and \code{expand=c(0,0)} (you need to set limits).
+The \verb{_percent} ones set precent format for axis text and \code{expand=c(0,0)} (you need to set limits).
 }

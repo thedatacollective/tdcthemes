@@ -32,7 +32,7 @@ theme_tdc <- function(
   base_size = 12,
   plot_title_family = base_family,
   plot_title_size = 28,
-  subtitle_family = "Open Sans Condensed",
+  subtitle_family = "Roboto Condensed",
   subtitle_size = 12,
   title_family = base_family,
   title_size = 14,
@@ -142,6 +142,8 @@ style_tdc <- function(
 
   if (!legend) {
     legend <- theme(legend.position = "none")
+  } else {
+    legend <- theme(legend.position = "bottom")
   }
 
   list(theme_tdc(), zero_line, legend)
