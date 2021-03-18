@@ -136,7 +136,7 @@ theme_tdc <- function(
 theme_clean <- function(
 base_family = "Roboto Condensed", base_size = 12, base_colour = "#1C1C1C",
 plot_title_family = base_family, plot_title_size = base_size * 2.5, plot_title_colour = base_colour,
-subtitle_family = "Roboto Thin", subtitle_size = base_size, subtiitle_colour = base_colour,
+subtitle_family = "Roboto Thin", subtitle_size = base_size, subtitle_colour = base_colour,
 title_family = base_family, title_size = base_size * 1.2, title_colour = base_colour,
 caption_family = subtitle_family, caption_size = base_size * 0.8, caption_colour = base_colour,
 panel_spacing = 25, grid_y = 1, grid_x = 1, grid_colour = "#ECECEC") {
