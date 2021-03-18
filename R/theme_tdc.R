@@ -260,7 +260,7 @@ style_tdc <- function(
 #'        caption = "Fisher's **Iris** data set") +
 #'        style_tdc()
 #' }
-style_tdc <- function(
+style_clean <- function(
   ...,
   zero_line = "#344055",
   legend = FALSE

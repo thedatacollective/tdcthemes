@@ -9,7 +9,7 @@ theme_tdc(
   base_size = 12,
   plot_title_family = base_family,
   plot_title_size = 28,
-  subtitle_family = "Open Sans Condensed",
+  subtitle_family = "Roboto Condensed",
   subtitle_size = 12,
   title_family = base_family,
   title_size = 14,
